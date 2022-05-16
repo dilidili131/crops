@@ -1,0 +1,16 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: nacos-userservice-8001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.142.15.16:8848
+      config:
+        server-addr: 8.142.15.16:8848
+        file-extension: yaml
+
+mybatis:
+  mapper-locations: classpath:/mappers/*.xml

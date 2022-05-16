@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lldd.crops.dao.LoginDao">
+    <select id="loginCheck" resultType="com.lldd.crops.entity.User">
+        select * from user
+        <where>
+            <if test="username != null and username != ''">
+                username = #{username}
+            </if>
+            <if test="password != null and password != ''">
+                and password = #{password}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="checkUserByName" resultType="java.lang.String">
+        select password from user
+        <where>
+            <if test="username != null and username != ''">
+                username = #{username}
+            </if>
+        </where>
+    </select>
+
+    <insert id="insertUser">
+        insert into user(id, username, password,address,type)
+        values (
+                   #{id},
+                   #{username},
+                   #{password},
+                   #{address},
+                   #{type}
+               )
+    </insert>
+</mapper>

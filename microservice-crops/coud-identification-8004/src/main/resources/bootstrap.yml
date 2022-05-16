@@ -1,0 +1,13 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: nacos-Identification-8004
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.142.15.16:8848
+      config:
+        server-addr: 8.142.15.16:8848
+        file-extension: yaml

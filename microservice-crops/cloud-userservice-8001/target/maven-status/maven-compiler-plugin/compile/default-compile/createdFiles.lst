@@ -1,0 +1,8 @@
+com\lldd\crops\controller\LoginController.class
+com\lldd\crops\entity\User.class
+com\lldd\crops\dao\LoginDao.class
+com\lldd\crops\service\UserService.class
+com\lldd\crops\controller\UserController.class
+com\lldd\crops\service\LoginService.class
+com\lldd\crops\dao\UserDao.class
+com\lldd\crops\UserServiceMain8001.class

@@ -1,0 +1,53 @@
+WARNING: Dataset not found, nonexistent paths: ['/home/ljy/Projects/Yolov5/datasets/coco/val2017.txt']
+Downloading https://github.com/ultralytics/yolov5/releases/download/v1.0/coco2017labels.zip to ../datasets/coco2017labels.zip...
+Traceback (most recent call last):
+  File "train.py", line 613, in <module>
+    main(opt)
+  File "train.py", line 511, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "train.py", line 85, in train
+    loggers = Loggers(save_dir, weights, opt, hyp, LOGGER)  # loggers instance
+  File "/home/ljy/Projects/Yolov5/yolov5/utils/loggers/__init__.py", line 62, in __init__
+    self.wandb = WandbLogger(self.opt, run_id)
+  File "/home/ljy/Projects/Yolov5/yolov5/utils/loggers/wandb/wandb_utils.py", line 174, in __init__
+    self.data_dict = check_wandb_dataset(opt.data)
+  File "/home/ljy/Projects/Yolov5/yolov5/utils/loggers/wandb/wandb_utils.py", line 51, in check_wandb_dataset
+    return check_dataset(data_file)
+  File "/home/ljy/Projects/Yolov5/yolov5/utils/general.py", line 355, in check_dataset
+    r = exec(s, {'yaml': data})  # return None
+  File "<string>", line 8, in <module>
+  File "/home/ljy/Projects/Yolov5/yolov5/utils/general.py", line 402, in download
+    download_one(u, dir)
+  File "/home/ljy/Projects/Yolov5/yolov5/utils/general.py", line 382, in download_one
+    torch.hub.download_url_to_file(url, f, progress=True)  # torch download
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/hub.py", line 425, in download_url_to_file
+    u = urlopen(req)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/urllib/request.py", line 1397, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/urllib/request.py", line 1354, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/http/client.py", line 1418, in connect
+    super().connect()
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt

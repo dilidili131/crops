@@ -1,0 +1,405 @@
+2021-10-20 12:31:02,675 INFO    MainThread:77554 [internal.py:wandb_internal():86] W&B internal server running at pid: 77554, started at: 2021-10-20 12:31:02.675290
+2021-10-20 12:31:02,676 INFO    WriterThread:77554 [datastore.py:open_for_write():77] open: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/run-2r4qufb5.wandb
+2021-10-20 12:31:02,677 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: check_version
+2021-10-20 12:31:02,677 DEBUG   SenderThread:77554 [sender.py:send():185] send: header
+2021-10-20 12:31:02,677 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: check_version
+2021-10-20 12:31:03,004 DEBUG   SenderThread:77554 [sender.py:send():185] send: run
+2021-10-20 12:31:03,012 INFO    SenderThread:77554 [sender.py:_maybe_setup_resume():427] checking resume status for None/YOLOv5/2r4qufb5
+2021-10-20 12:31:05,084 INFO    SenderThread:77554 [dir_watcher.py:__init__():169] watching files in: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files
+2021-10-20 12:31:05,084 INFO    SenderThread:77554 [sender.py:_start_run_threads():746] run started: 2r4qufb5 with start time 1634704262
+2021-10-20 12:31:05,084 DEBUG   SenderThread:77554 [sender.py:send():185] send: summary
+2021-10-20 12:31:05,084 INFO    SenderThread:77554 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-20 12:31:05,085 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: run_start
+2021-10-20 12:31:05,088 DEBUG   HandlerThread:77554 [meta.py:__init__():40] meta init
+2021-10-20 12:31:05,088 DEBUG   HandlerThread:77554 [meta.py:__init__():54] meta init done
+2021-10-20 12:31:05,088 DEBUG   HandlerThread:77554 [meta.py:probe():211] probe
+2021-10-20 12:31:05,093 DEBUG   HandlerThread:77554 [meta.py:_save_pip():58] save pip
+2021-10-20 12:31:05,094 DEBUG   HandlerThread:77554 [meta.py:_save_pip():72] save pip done
+2021-10-20 12:31:05,094 DEBUG   HandlerThread:77554 [meta.py:_save_conda():79] save conda
+2021-10-20 12:31:06,085 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/wandb-summary.json
+2021-10-20 12:31:06,086 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/conda-environment.yaml
+2021-10-20 12:31:06,086 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/requirements.txt
+2021-10-20 12:31:06,472 DEBUG   HandlerThread:77554 [meta.py:_save_conda():87] save conda done
+2021-10-20 12:31:06,472 DEBUG   HandlerThread:77554 [meta.py:probe():249] probe done
+2021-10-20 12:31:06,491 DEBUG   SenderThread:77554 [sender.py:send():185] send: files
+2021-10-20 12:31:06,492 INFO    SenderThread:77554 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-20 12:31:06,496 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:31:06,496 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:31:07,084 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/conda-environment.yaml
+2021-10-20 12:31:07,085 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/wandb-metadata.json
+2021-10-20 12:31:07,085 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:07,525 DEBUG   SenderThread:77554 [sender.py:send():185] send: config
+2021-10-20 12:31:08,451 INFO    Thread-11 :77554 [upload_job.py:push():137] Uploaded file /tmp/tmpw5wauo_owandb/14jwjgkf-wandb-metadata.json
+2021-10-20 12:31:09,085 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:11,086 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:13,087 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:15,087 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:17,087 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:19,088 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:21,088 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:23,089 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:23,145 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:31:23,145 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:31:25,090 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:27,090 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:29,090 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:31,091 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:33,092 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:33,305 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:31:35,092 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/config.yaml
+2021-10-20 12:31:35,092 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:37,093 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:39,093 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:39,121 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:31:39,121 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:31:41,094 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:43,095 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:45,095 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:47,096 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:49,096 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:51,097 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:53,098 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:55,096 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:31:55,096 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:31:55,099 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:57,100 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:31:59,100 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:01,101 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:03,102 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:03,507 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:32:05,102 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:07,103 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:09,103 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:11,038 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:32:11,038 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:32:11,104 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:13,104 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:15,105 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:17,105 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:19,106 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:21,107 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:23,107 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:25,108 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:27,046 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:32:27,046 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:32:27,108 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:29,109 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:31,109 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:33,110 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:33,704 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:32:35,111 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:37,111 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:39,112 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:41,112 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:43,018 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:32:43,018 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:32:43,113 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:45,114 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:47,114 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:49,115 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:51,115 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:53,116 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:55,116 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:57,117 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:59,118 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:32:59,300 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:32:59,301 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:33:01,118 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:03,119 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:03,901 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:33:05,120 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:07,120 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:09,121 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:11,121 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:13,122 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:15,122 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:15,274 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:33:15,275 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:33:17,123 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:19,123 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:21,124 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:23,124 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:25,125 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:27,126 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:29,126 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:31,126 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:31,248 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:33:31,249 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:33:33,127 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:34,100 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:33:35,128 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:37,128 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:39,129 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:41,130 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:43,130 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:45,130 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:47,120 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:33:47,120 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:33:47,131 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:49,132 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:51,132 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:53,133 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:55,134 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:57,135 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:33:59,135 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:01,136 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:03,094 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:34:03,095 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:34:03,136 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:04,300 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:34:05,137 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:07,138 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:09,138 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:11,139 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:13,139 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:15,140 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:17,140 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:19,141 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:19,273 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:34:19,273 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:34:21,142 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:23,142 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:25,143 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:27,144 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:29,144 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:31,145 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:33,146 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:34,494 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:34:35,146 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:35,246 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:34:35,246 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:34:37,147 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:39,147 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:41,147 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:43,148 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:45,148 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:47,149 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:49,150 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:51,118 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:34:51,118 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:34:51,151 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:53,151 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:55,152 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:57,152 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:34:59,153 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:01,153 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:03,154 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:04,690 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:35:05,154 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:06,990 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:35:06,990 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:35:07,155 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:09,155 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:11,156 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:13,156 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:15,157 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:17,158 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:19,158 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:21,159 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:22,963 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:35:22,964 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:35:23,159 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:25,160 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:27,160 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:29,161 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:31,162 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:33,162 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:34,883 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:35:35,163 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:37,163 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:38,835 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:35:38,836 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:35:39,164 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:41,165 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:43,166 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:45,166 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:47,166 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:49,167 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:51,168 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:53,168 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:54,707 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:35:54,708 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:35:55,169 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:57,169 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:35:59,170 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:01,170 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:03,171 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:05,061 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:36:05,171 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:07,172 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:09,173 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:10,576 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:36:10,577 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:36:11,173 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:13,174 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:15,174 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:17,175 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:19,176 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:21,176 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:23,177 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:24,830 DEBUG   SenderThread:77554 [sender.py:send():185] send: files
+2021-10-20 12:36:24,831 INFO    SenderThread:77554 [sender.py:_save_file():879] saving file media/images/Labels_0_0.jpg with policy now
+2021-10-20 12:36:24,831 DEBUG   SenderThread:77554 [sender.py:send():185] send: files
+2021-10-20 12:36:24,831 INFO    SenderThread:77554 [sender.py:_save_file():879] saving file media/images/Labels_0_1.jpg with policy now
+2021-10-20 12:36:24,868 DEBUG   SenderThread:77554 [sender.py:send():185] send: files
+2021-10-20 12:36:24,868 INFO    SenderThread:77554 [sender.py:_save_file():879] saving file media/images/Mosaics_0_0.jpg with policy now
+2021-10-20 12:36:24,868 DEBUG   SenderThread:77554 [sender.py:send():185] send: files
+2021-10-20 12:36:24,868 INFO    SenderThread:77554 [sender.py:_save_file():879] saving file media/images/Mosaics_0_1.jpg with policy now
+2021-10-20 12:36:24,869 DEBUG   SenderThread:77554 [sender.py:send():185] send: files
+2021-10-20 12:36:24,869 INFO    SenderThread:77554 [sender.py:_save_file():879] saving file media/images/Mosaics_0_2.jpg with policy now
+2021-10-20 12:36:24,950 DEBUG   SenderThread:77554 [sender.py:send():185] send: history
+2021-10-20 12:36:24,950 DEBUG   SenderThread:77554 [sender.py:send():185] send: summary
+2021-10-20 12:36:24,951 INFO    SenderThread:77554 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-20 12:36:25,177 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/wandb-summary.json
+2021-10-20 12:36:25,178 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:25,178 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/media/images/Mosaics_0_1.jpg
+2021-10-20 12:36:25,178 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/media/images/Labels_0_1.jpg
+2021-10-20 12:36:25,178 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/media/images/Mosaics_0_0.jpg
+2021-10-20 12:36:25,178 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/media/images/Labels_0_0.jpg
+2021-10-20 12:36:25,178 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/media/images/Mosaics_0_2.jpg
+2021-10-20 12:36:25,178 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/media
+2021-10-20 12:36:25,178 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/media/images
+2021-10-20 12:36:26,552 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:36:26,552 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:36:27,120 INFO    Thread-16 :77554 [upload_job.py:push():137] Uploaded file /tmp/tmpw5wauo_owandb/a14u1axz-media/images/Mosaics_0_2.jpg
+2021-10-20 12:36:27,121 INFO    Thread-15 :77554 [upload_job.py:push():137] Uploaded file /tmp/tmpw5wauo_owandb/3lx66ygz-media/images/Mosaics_0_1.jpg
+2021-10-20 12:36:27,178 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:28,081 INFO    Thread-13 :77554 [upload_job.py:push():137] Uploaded file /tmp/tmpw5wauo_owandb/3to3c5bg-media/images/Labels_0_1.jpg
+2021-10-20 12:36:28,547 INFO    Thread-12 :77554 [upload_job.py:push():137] Uploaded file /tmp/tmpw5wauo_owandb/2kx92ba0-media/images/Labels_0_0.jpg
+2021-10-20 12:36:29,179 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:29,572 INFO    Thread-14 :77554 [upload_job.py:push():137] Uploaded file /tmp/tmpw5wauo_owandb/32x08a3b-media/images/Mosaics_0_0.jpg
+2021-10-20 12:36:31,179 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:33,180 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:35,181 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:35,249 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:36:37,182 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:39,183 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:41,183 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:42,756 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:36:42,757 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:36:43,184 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:45,185 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:47,186 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:49,187 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:51,188 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:53,189 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:55,189 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:57,190 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:36:58,705 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:36:58,705 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:36:59,191 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:01,192 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:03,192 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:05,193 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:05,450 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:37:07,194 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:09,195 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:11,196 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:13,196 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:14,680 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:37:14,680 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:37:15,197 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:17,198 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:19,198 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:21,199 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:23,200 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:25,201 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:27,202 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:29,202 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:30,653 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:37:30,653 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:37:31,203 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:33,204 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:35,205 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:35,631 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:37:37,205 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:39,206 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:41,207 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:43,207 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:45,208 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:46,630 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:37:46,630 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:37:47,209 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:49,210 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:51,210 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:53,211 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:55,212 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:57,213 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:37:59,214 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:01,214 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:02,913 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:38:02,913 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:38:03,215 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:05,216 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:05,835 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:38:07,216 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:09,218 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:11,218 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:13,219 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:15,220 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:17,220 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:18,886 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:38:18,887 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:38:19,221 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:21,222 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:23,222 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:25,223 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:27,224 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:29,225 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:31,226 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:33,227 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:35,228 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:35,266 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:38:35,266 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:38:36,139 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:38:37,228 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:39,229 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:41,230 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:43,231 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:45,231 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:47,232 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:49,233 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:51,140 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:38:51,140 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:38:51,234 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:53,234 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:55,235 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:57,235 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:38:59,236 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:01,237 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:03,237 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:05,239 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:06,235 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:39:07,112 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:39:07,112 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:39:07,240 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:10,241 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:12,242 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:14,243 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:16,243 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:18,245 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:20,246 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:22,246 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:23,086 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:39:23,086 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:39:24,247 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:26,248 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:28,248 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:30,249 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:32,250 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:34,251 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:36,252 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:36,429 DEBUG   SenderThread:77554 [sender.py:send():185] send: stats
+2021-10-20 12:39:38,253 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:39,064 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:39:39,065 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status
+2021-10-20 12:39:40,254 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:42,255 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:44,255 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:46,256 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:48,257 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:50,257 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:52,258 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:54,259 INFO    Thread-8  :77554 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ljy/Projects/Yolov5/yolov5/wandb/run-20211020_123102-2r4qufb5/files/output.log
+2021-10-20 12:39:55,251 DEBUG   HandlerThread:77554 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-20 12:39:55,251 DEBUG   SenderThread:77554 [sender.py:send_request():199] send_request: stop_status

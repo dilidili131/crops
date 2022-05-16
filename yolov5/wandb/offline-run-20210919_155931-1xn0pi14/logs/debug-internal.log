@@ -1,0 +1,11 @@
+2021-09-19 15:59:32,073 INFO    MainThread:10083 [internal.py:wandb_internal():86] W&B internal server running at pid: 10083, started at: 2021-09-19 15:59:32.073709
+2021-09-19 15:59:32,075 INFO    WriterThread:10083 [datastore.py:open_for_write():77] open: /home/ljy/Projects/Yolov5/yolov5/wandb/offline-run-20210919_155931-1xn0pi14/run-1xn0pi14.wandb
+2021-09-19 15:59:32,075 DEBUG   HandlerThread:10083 [handler.py:handle_request():126] handle_request: run_start
+2021-09-19 15:59:32,078 DEBUG   HandlerThread:10083 [meta.py:__init__():40] meta init
+2021-09-19 15:59:32,078 DEBUG   HandlerThread:10083 [meta.py:__init__():54] meta init done
+2021-09-19 15:59:32,078 DEBUG   HandlerThread:10083 [meta.py:probe():211] probe
+2021-09-19 15:59:32,083 DEBUG   HandlerThread:10083 [meta.py:_save_pip():58] save pip
+2021-09-19 15:59:32,084 DEBUG   HandlerThread:10083 [meta.py:_save_pip():72] save pip done
+2021-09-19 15:59:32,084 DEBUG   HandlerThread:10083 [meta.py:_save_conda():79] save conda
+2021-09-19 15:59:33,652 DEBUG   HandlerThread:10083 [meta.py:_save_conda():87] save conda done
+2021-09-19 15:59:33,652 DEBUG   HandlerThread:10083 [meta.py:probe():249] probe done

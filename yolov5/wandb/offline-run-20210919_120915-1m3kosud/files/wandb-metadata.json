@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.11.0-35-generic-x86_64-with-glibc2.17",
+    "python": "3.8.11",
+    "heartbeatAt": "2021-09-19T04:09:16.143217",
+    "startedAt": "2021-09-19T04:09:15.878960",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--device",
+        "0"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "ljy",
+    "username": "ljy",
+    "executable": "/home/ljy/anaconda3/envs/Deeplearning/bin/python"
+}

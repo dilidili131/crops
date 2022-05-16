@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "train.py", line 611, in <module>
+    main(opt)
+  File "train.py", line 509, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "train.py", line 108, in train
+    check_suffix(weights, '.pt')  # check weights
+  File "/home/ljy/Projects/yolov5-master/utils/general.py", line 285, in check_suffix
+    assert Path(f).suffix.lower() in suffix, f"{msg}{f} acceptable suffix is {suffix}"
+AssertionError:   acceptable suffix is ['.pt']

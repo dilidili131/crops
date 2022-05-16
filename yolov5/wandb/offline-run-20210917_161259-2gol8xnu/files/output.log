@@ -1,0 +1,48 @@
+
+Downloading https://github.com/ultralytics/yolov5/releases/download/v5.0/yolov5x.pt to weights/yolov5x.pt...
+100%|████████████████████████████████████████| 168M/168M [00:22<00:00, 7.99MB/s]
+                 from  n    params  module                                  arguments
+  0                -1  1      8800  models.common.Focus                     [3, 80, 3]
+  1                -1  1    115520  models.common.Conv                      [80, 160, 3, 2]
+  2                -1  4    309120  models.common.C3                        [160, 160, 4]
+  3                -1  1    461440  models.common.Conv                      [160, 320, 3, 2]
+  4                -1 12   3285760  models.common.C3                        [320, 320, 12]
+  5                -1  1   1844480  models.common.Conv                      [320, 640, 3, 2]
+  6                -1 12  13125120  models.common.C3                        [640, 640, 12]
+  7                -1  1   7375360  models.common.Conv                      [640, 1280, 3, 2]
+  8                -1  1   4099840  models.common.SPP                       [1280, 1280, [5, 9, 13]]
+  9                -1  4  19676160  models.common.C3                        [1280, 1280, 4, False]
+ 10                -1  1    820480  models.common.Conv                      [1280, 640, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  4   5332480  models.common.C3                        [1280, 640, 4, False]
+ 14                -1  1    205440  models.common.Conv                      [640, 320, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  4   1335040  models.common.C3                        [640, 320, 4, False]
+ 18                -1  1    922240  models.common.Conv                      [320, 320, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  4   4922880  models.common.C3                        [640, 640, 4, False]
+ 21                -1  1   3687680  models.common.Conv                      [640, 640, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  4  19676160  models.common.C3                        [1280, 1280, 4, False]
+ 24      [17, 20, 23]  1     60561  models.yolo.Detect                      [4, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [320, 640, 1280]]
+Model Summary: 607 layers, 87264561 parameters, 87264561 gradients
+Transferred 786/794 items from weights/yolov5x.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 131 weight, 134 weight (no decay), 134 bias
+[34m[1mtrain: [39m[22mScanning '/home/ljy/Projects/yolov5-master/dataset/train/labels' images a
+[34m[1mtrain: [39m[22mWARNING: No labels found in /home/ljy/Projects/yolov5-master/dataset/train/labels.cache. See https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
+[34m[1mtrain: [39m[22mNew cache created: /home/ljy/Projects/yolov5-master/dataset/train/labels.cache
+Traceback (most recent call last):
+  File "train.py", line 611, in <module>
+    main(opt)
+  File "train.py", line 509, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "train.py", line 207, in train
+    train_loader, dataset = create_dataloader(train_path, imgsz, batch_size // WORLD_SIZE, gs, single_cls,
+  File "/home/ljy/Projects/yolov5-master/utils/datasets.py", line 98, in create_dataloader
+    dataset = LoadImagesAndLabels(path, imgsz, batch_size,
+  File "/home/ljy/Projects/yolov5-master/utils/datasets.py", line 418, in __init__
+    assert nf > 0 or not augment, f'{prefix}No labels in {cache_path}. Can not train without labels. See {HELP_URL}'
+AssertionError: [34m[1mtrain: [39m[22mNo labels in /home/ljy/Projects/yolov5-master/dataset/train/labels.cache. Can not train without labels. See https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data

@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.99.158.5:3306/crops-worm?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&allowPublicKeyRetrieval=true
+    username: root
+    password: lichuanhe
+    testOnBorrw: true
+    validationQuery: SELECT 1
+  jackson:
+    date-format: yyyy/MM/dd HH:mm:ss
+    time-zone: GMT+8
+mybatis:
+  mapper-locations: classpath:/mappers/*.xml

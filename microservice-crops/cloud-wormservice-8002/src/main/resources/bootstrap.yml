@@ -1,0 +1,14 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: nacos-wormservice-8002
+  cloud:
+    nacos:
+      discovery:
+        ip: 8.142.25.155
+        server-addr: 8.142.15.16:8848
+      config:
+        server-addr: 8.142.15.16:8848
+        file-extension: yaml

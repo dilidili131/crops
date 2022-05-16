@@ -1,0 +1,61 @@
+version: "3"
+
+services:
+  gateway:
+    build: ./cloud-gateway-9527
+    deploy:
+      resources:
+        limits:
+          memory: 200M
+        reservations:
+          memory: 100M
+    tty: true
+    ports:
+      - "9527:9527"
+  userservice:
+    build: ./cloud-userservice-8001
+    deploy:
+      resources:
+        limits:
+          memory: 200M
+        reservations:
+          memory: 100M
+    tty: true
+  identificationservice:
+    build: ./coud-identification-8004
+    deploy:
+      resources:
+        limits:
+          memory: 200M
+        reservations:
+          memory: 100M
+    tty: true
+  wormservice:
+    build: ./cloud-wormservice-8002
+    deploy:
+      resources:
+        limits:
+          memory: 200M
+        reservations:
+          memory: 100M
+    tty: true
+    ports:
+      - "8002:8002"
+  messageservice:
+    build: ./cloud-messageservice-8003
+    deploy:
+      resources:
+        limits:
+          memory: 200M
+        reservations:
+          memory: 100M
+    tty: true
+    ports:
+      - "8003:8003"
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+Plotting labels...
+[34m[1mautoanchor: [39m[22mAnalyzing anchors... anchors/target = 5.00, Best Possible Recall (BPR) = 1.0000
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'models.yolo.Model' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'torch.nn.modules.container.Sequential' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'models.common.Focus' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'models.common.Conv' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'torch.nn.modules.conv.Conv2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'torch.nn.modules.batchnorm.BatchNorm2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'torch.nn.modules.activation.LeakyReLU' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'models.common.BottleneckCSP' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'models.common.Bottleneck' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'models.common.SPP' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'torch.nn.modules.container.ModuleList' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'torch.nn.modules.pooling.MaxPool2d' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'torch.nn.modules.upsampling.Upsample' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'models.common.Concat' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/serialization.py:658: SourceChangeWarning: source code of class 'models.yolo.Detect' has changed. you can retrieve the original source code by accessing the object's source attribute or set `torch.nn.Module.dump_patches = True` and use the patch tool to revert the changes.
+  warnings.warn(msg, SourceChangeWarning)
+                 from  n    params  module                                  arguments
+  0                -1  1      3520  models.common.Focus                     [3, 32, 3]
+  1                -1  1     18560  models.common.Conv                      [32, 64, 3, 2]
+  2                -1  1     18816  models.common.C3                        [64, 64, 1]
+  3                -1  1     73984  models.common.Conv                      [64, 128, 3, 2]
+  4                -1  3    156928  models.common.C3                        [128, 128, 3]
+  5                -1  1    295424  models.common.Conv                      [128, 256, 3, 2]
+  6                -1  3    625152  models.common.C3                        [256, 256, 3]
+  7                -1  1   1180672  models.common.Conv                      [256, 512, 3, 2]
+  8                -1  1    656896  models.common.SPP                       [512, 512, [5, 9, 13]]
+  9                -1  1   1182720  models.common.C3                        [512, 512, 1, False]
+ 10                -1  1    131584  models.common.Conv                      [512, 256, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  1    361984  models.common.C3                        [512, 256, 1, False]
+ 14                -1  1     33024  models.common.Conv                      [256, 128, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  1     90880  models.common.C3                        [256, 128, 1, False]
+ 18                -1  1    147712  models.common.Conv                      [128, 128, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  1    296448  models.common.C3                        [256, 256, 1, False]
+ 21                -1  1    590336  models.common.Conv                      [256, 256, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  1   1182720  models.common.C3                        [512, 512, 1, False]
+ 24      [17, 20, 23]  1     24273  models.yolo.Detect                      [4, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [128, 256, 512]]
+Model Summary: 283 layers, 7071633 parameters, 7071633 gradients, 16.4 GFLOPs
+Transferred 215/362 items from yolov5s.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 59 weight, 62 weight (no decay), 62 bias
+[34m[1mtrain: [39m[22mScanning '/home/ljy/Projects/Yolov5/dataset/labels/train.cache' images and labels... 8862 found, 0 missing, 1003 empty, 4 corrupted: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 8862/8862 [00:00<?, ?it/s]
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label /home/ljy/Projects/Yolov5/dataset/images/train/FLIR_05639.jpeg: duplicate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label /home/ljy/Projects/Yolov5/dataset/images/train/FLIR_05812.jpeg: duplicate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label /home/ljy/Projects/Yolov5/dataset/images/train/FLIR_07226.jpeg: duplicate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label /home/ljy/Projects/Yolov5/dataset/images/train/FLIR_07525.jpeg: duplicate labels
+[34m[1mval: [39m[22mScanning '/home/ljy/Projects/Yolov5/dataset/labels/val.cache' images and labels... 1366 found, 0 missing, 6 empty, 3 corrupted: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1366/1366 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mWARNING: Ignoring corrupted image and/or label /home/ljy/Projects/Yolov5/dataset/images/val/FLIR_09042.jpeg: duplicate labels
+[34m[1mval: [39m[22mWARNING: Ignoring corrupted image and/or label /home/ljy/Projects/Yolov5/dataset/images/val/FLIR_09055.jpeg: duplicate labels
+[34m[1mval: [39m[22mWARNING: Ignoring corrupted image and/or label /home/ljy/Projects/Yolov5/dataset/images/val/FLIR_09653.jpeg: duplicate labels
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns/train/exp98
+Starting training for 300 epochs...
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     0/299      3.3G       nan       nan       nan        87       640: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 554/554 [12:19<00:00,  1.34s/it]
+/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95:   2%|███▍                                                                                                                                                  | 1/43 [00:00<00:04,  9.03it/s]
+Traceback (most recent call last):
+  File "train.py", line 613, in <module>
+    main(opt)
+  File "train.py", line 511, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "train.py", line 350, in train
+    results, maps, _ = val.run(data_dict,
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 26, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ljy/Projects/Yolov5/yolov5/val.py", line 182, in run
+    out = non_max_suppression(out, conf_thres, iou_thres, labels=lb, multi_label=True, agnostic=single_cls)
+  File "/home/ljy/Projects/Yolov5/yolov5/utils/general.py", line 663, in non_max_suppression
+    i = torchvision.ops.nms(boxes, scores, iou_thres)  # NMS
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torchvision/ops/boxes.py", line 35, in nms
+    _assert_has_ops()
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/torchvision/extension.py", line 62, in _assert_has_ops
+    raise RuntimeError(
+RuntimeError: Couldn't load custom C++ ops. This can happen if your PyTorch and torchvision versions are incompatible, or if you had errors while compiling torchvision from source. For further information on the compatible versions, check https://github.com/pytorch/vision#installation for the compatibility matrix. Please check your PyTorch version with torch.__version__ and your torchvision version with torchvision.__version__ and verify if they are compatible, and if not please reinstall torchvision so that it matches your PyTorch install.

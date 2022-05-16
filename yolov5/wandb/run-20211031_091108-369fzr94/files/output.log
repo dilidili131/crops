@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "train.py", line 613, in <module>
+    main(opt)
+  File "train.py", line 511, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "train.py", line 85, in train
+    loggers = Loggers(save_dir, weights, opt, hyp, LOGGER)  # loggers instance
+  File "/home/ljy/Projects/wom/yolov5/utils/loggers/__init__.py", line 62, in __init__
+    self.wandb = WandbLogger(self.opt, run_id)
+  File "/home/ljy/Projects/wom/yolov5/utils/loggers/wandb/wandb_utils.py", line 174, in __init__
+    self.data_dict = check_wandb_dataset(opt.data)
+  File "/home/ljy/Projects/wom/yolov5/utils/loggers/wandb/wandb_utils.py", line 45, in check_wandb_dataset
+    data_dict = yaml.safe_load(f)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/__init__.py", line 162, in safe_load
+    return load(stream, SafeLoader)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/__init__.py", line 114, in load
+    return loader.get_single_data()
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/composer.py", line 110, in compose_sequence_node
+    while not self.check_event(SequenceEndEvent):
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/parser.py", line 486, in parse_flow_sequence_entry
+    if self.check_token(KeyToken):
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/scanner.py", line 247, in fetch_more_tokens
+    return self.fetch_single()
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/scanner.py", line 652, in fetch_single
+    self.fetch_flow_scalar(style='\'')
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/scanner.py", line 666, in fetch_flow_scalar
+    self.tokens.append(self.scan_flow_scalar(style))
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/scanner.py", line 1151, in scan_flow_scalar
+    chunks.extend(self.scan_flow_scalar_spaces(double, start_mark))
+  File "/home/ljy/anaconda3/envs/Deeplearning/lib/python3.8/site-packages/yaml/scanner.py", line 1238, in scan_flow_scalar_spaces
+    raise ScannerError("while scanning a quoted scalar", start_mark,
+yaml.scanner.ScannerError: while scanning a quoted scalar
+  in "data/FLIR.yaml", line 9, column 76
+found unexpected end of stream
+  in "data/FLIR.yaml", line 11, column 1

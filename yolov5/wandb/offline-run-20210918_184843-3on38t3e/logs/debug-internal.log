@@ -1,0 +1,11 @@
+2021-09-18 18:48:44,248 INFO    MainThread:138872 [internal.py:wandb_internal():86] W&B internal server running at pid: 138872, started at: 2021-09-18 18:48:44.248698
+2021-09-18 18:48:44,250 DEBUG   HandlerThread:138872 [handler.py:handle_request():126] handle_request: run_start
+2021-09-18 18:48:44,250 INFO    WriterThread:138872 [datastore.py:open_for_write():77] open: /home/ljy/Projects/Yolov5/yolov5/wandb/offline-run-20210918_184843-3on38t3e/run-3on38t3e.wandb
+2021-09-18 18:48:44,253 DEBUG   HandlerThread:138872 [meta.py:__init__():40] meta init
+2021-09-18 18:48:44,253 DEBUG   HandlerThread:138872 [meta.py:__init__():54] meta init done
+2021-09-18 18:48:44,253 DEBUG   HandlerThread:138872 [meta.py:probe():211] probe
+2021-09-18 18:48:44,259 DEBUG   HandlerThread:138872 [meta.py:_save_pip():58] save pip
+2021-09-18 18:48:44,259 DEBUG   HandlerThread:138872 [meta.py:_save_pip():72] save pip done
+2021-09-18 18:48:44,259 DEBUG   HandlerThread:138872 [meta.py:_save_conda():79] save conda
+2021-09-18 18:48:45,812 DEBUG   HandlerThread:138872 [meta.py:_save_conda():87] save conda done
+2021-09-18 18:48:45,813 DEBUG   HandlerThread:138872 [meta.py:probe():249] probe done

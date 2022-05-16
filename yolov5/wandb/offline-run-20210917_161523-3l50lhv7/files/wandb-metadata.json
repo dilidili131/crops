@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.11.0-35-generic-x86_64-with-glibc2.17",
+    "python": "3.8.11",
+    "heartbeatAt": "2021-09-17T08:15:24.229935",
+    "startedAt": "2021-09-17T08:15:23.932281",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--epochs",
+        "300",
+        "--data",
+        "data/FLIR.yaml",
+        "--cfg",
+        "models/yolov5s.yaml",
+        "--weight",
+        " "
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "ljy",
+    "username": "ljy",
+    "executable": "/home/ljy/anaconda3/envs/Deeplearning/bin/python"
+}

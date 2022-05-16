@@ -1,0 +1,5 @@
+com\lldd\crops\controller\WormController.class
+com\lldd\crops\entity\Worm.class
+com\lldd\crops\dao\WormDao.class
+com\lldd\crops\WormServiceMain8002.class
+com\lldd\crops\service\WormService.class

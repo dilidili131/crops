@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.11.0-35-generic-x86_64-with-glibc2.17",
+    "python": "3.8.11",
+    "heartbeatAt": "2021-09-18T10:48:21.418048",
+    "startedAt": "2021-09-18T10:48:21.152030",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--epochs",
+        "300",
+        "--data",
+        "data/FLIR.yaml",
+        "--cfg",
+        "models/yolov5s.yaml",
+        "--weight",
+        " "
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "ljy",
+    "username": "ljy",
+    "executable": "/home/ljy/anaconda3/envs/Deeplearning/bin/python"
+}

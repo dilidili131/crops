@@ -1,0 +1,12 @@
+2021-09-19 15:23:00,799 INFO    MainThread:9659 [internal.py:wandb_internal():86] W&B internal server running at pid: 9659, started at: 2021-09-19 15:23:00.799468
+2021-09-19 15:23:00,801 INFO    WriterThread:9659 [datastore.py:open_for_write():77] open: /home/ljy/Projects/Yolov5/yolov5/wandb/offline-run-20210919_152300-84vxsa94/run-84vxsa94.wandb
+2021-09-19 15:23:00,801 DEBUG   HandlerThread:9659 [handler.py:handle_request():126] handle_request: run_start
+2021-09-19 15:23:00,804 DEBUG   HandlerThread:9659 [meta.py:__init__():40] meta init
+2021-09-19 15:23:00,804 DEBUG   HandlerThread:9659 [meta.py:__init__():54] meta init done
+2021-09-19 15:23:00,804 DEBUG   HandlerThread:9659 [meta.py:probe():211] probe
+2021-09-19 15:23:00,809 DEBUG   HandlerThread:9659 [meta.py:_save_pip():58] save pip
+2021-09-19 15:23:00,809 DEBUG   HandlerThread:9659 [meta.py:_save_pip():72] save pip done
+2021-09-19 15:23:00,809 DEBUG   HandlerThread:9659 [meta.py:_save_conda():79] save conda
+2021-09-19 15:23:02,376 DEBUG   HandlerThread:9659 [meta.py:_save_conda():87] save conda done
+2021-09-19 15:23:02,376 DEBUG   HandlerThread:9659 [meta.py:probe():249] probe done
+2021-09-19 15:28:43,258 WARNING MainThread:9659 [internal.py:wandb_internal():145] Internal process interrupt: 1

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-messageservice-8003" />
+        <module name="coud-identification-8004" />
+        <module name="cloud-api-common" />
+        <module name="cloud-userservice-8001" />
+        <module name="cloud-wormservice-8002" />
+        <module name="cloud-gateway-9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-businessservice-8005" target="8" />
+      <module name="identificaqtion" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

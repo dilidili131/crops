@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lldd.crops.dao.WormDao">
+
+    <select id="getAllWormData" resultType="com.lldd.crops.entity.Worm">
+        select * from worm
+        <where>
+            <if test="worm_name != null and worm_name != ''">
+                worm_name like  concat('%',#{worm_name},'%')
+            </if>
+            <if test="category != null and category != ''">
+                and category like  concat('%',#{category},'%')
+            </if>
+        </where>
+        limit #{pagenum},#{pagesize}
+    </select>
+
+    <select id="getAllWormDataNum" resultType="java.lang.Integer">
+        select count(*)
+        from worm
+        <where>
+            <if test="worm_name != null and worm_name != ''">
+                worm_name like  concat('%',#{worm_name},'%')
+            </if>
+            <if test="category != null and category != ''">
+                and category like  concat('%',#{category},'%')
+            </if>
+        </where>
+    </select>
+
+    <select id="getAllCate" resultType="java.lang.String">
+        select DISTINCT category from worm
+    </select>
+
+    <update id="updateWorminfo">
+        update worm set location = #{location},
+        `character` = #{character},
+        discipline=#{discipline},
+        prevent=#{prevent}
+        <where>
+            <if test="worm_name != null and worm_name != ''">
+                worm_name = #{worm_name}
+            </if>
+            <if test="worm_sname != null and worm_sname != ''">
+                and worm_sname = #{worm_sname}
+            </if>
+            <if test="category != null and category != ''">
+                and category = #{category}
+            </if>
+        </where>
+    </update>
+
+    <delete id="deleteWorm">
+        delete from worm where worm_name = #{worm_name}
+    </delete>
+
+    <insert id="insertWorm">
+        insert into worm
+        values(#{worm_name},
+               '',
+               #{img_link},
+               #{location},
+               #{character},
+               #{discipline},
+               #{prevent},
+               #{worm_sname},
+               #{category})
+    </insert>
+
+    <select id="getInfoByCate" resultType="com.lldd.crops.entity.Worm">
+        select discipline,`character`,prevent from worm
+        where category = #{category}
+        limit 1,1
+    </select>
+</mapper>

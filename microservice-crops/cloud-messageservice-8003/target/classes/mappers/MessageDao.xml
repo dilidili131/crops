@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lldd.crops.dao.MessageDao">
+    <select id="getAllMessage" resultType="com.lldd.crops.entity.Message">
+        select * from message
+        <where>
+            <if test="address != null and address != ''">
+                address = #{address}
+            </if>
+            <if test="done != null and done != ''">
+                and done = #{done}
+            </if>
+            <if test="worm_name != null and worm_name != ''">
+                and worm_name = #{worm_name}
+            </if>
+        </where>
+    </select>
+    <select id="getAllMessageNum" resultType="java.lang.Integer">
+        select count(*) from message
+        <where>
+            <if test="address != null and address != ''">
+                address = #{address}
+            </if>
+            <if test="done != null and done != ''">
+                and done = #{done}
+            </if>
+            <if test="worm_name != null and worm_name != ''">
+                and worm_name = #{worm_name}
+            </if>
+        </where>
+    </select>
+    <update id="updateDone">
+        update message set done="是"
+        where username = #{username} and address = #{address} and worm_name = #{worm_name}
+    </update>
+
+    <insert id="insertMsg">
+        insert into message
+        values(
+               #{username},
+               #{worm_name},
+               #{number},
+               #{address},
+               #{done}
+              )
+    </insert>
+</mapper>

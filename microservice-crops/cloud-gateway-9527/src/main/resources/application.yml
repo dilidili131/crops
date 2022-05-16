@@ -1,0 +1,98 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        #user
+        - id: userservice
+#          uri: http://192.168.23.1:20880
+          uri: lb://nacos-userservice-8001
+          predicates:
+            - Path=/get/**
+        - id: logincheck
+          uri: lb://nacos-userservice-8001
+          predicates:
+            - Path=/api/login/**
+        - id: checkUser
+          uri: lb://nacos-userservice-8001
+          predicates:
+            - Path=/api/checkUser/**
+        - id: addUser
+          uri: lb://nacos-userservice-8001
+          predicates:
+            - Path=/api/addUser/**
+        - id: addAdmin
+          uri: lb://nacos-userservice-8001
+          predicates:
+            - Path=/api/addAdmin/**
+        - id: deleteUser
+          uri: lb://nacos-userservice-8001
+          predicates:
+            - Path=/api/deleteUser/**
+        - id: getAllUser
+          uri: lb://nacos-userservice-8001
+          predicates:
+            - Path=/api/getAllUser/**
+        - id: updateUser
+          uri: lb://nacos-userservice-8001
+          predicates:
+            - Path=/api/updateUser/**
+        #worm
+        - id: getAllWormData
+          uri: lb://nacos-wormservice-8002
+          predicates:
+            - Path=/api/getAllWormData/**
+        - id: getAllCate
+          uri: lb://nacos-wormservice-8002
+          predicates:
+            - Path=/api/getAllCate
+        - id: updateWormInfo
+          uri: lb://nacos-wormservice-8002
+          predicates:
+            - Path=/api/updateWormInfo/**
+        - id: deleteWorm
+          uri: lb://nacos-wormservice-8002
+          predicates:
+            - Path=/api/deleteWorm/**
+        - id: insertWorm
+          uri: lb://nacos-wormservice-8002
+          predicates:
+            - Path=/api/insertWorm/**
+#        - id: getInfoByName
+#          uri: lb://nacos-wormservice-8002
+#          predicates:
+#            - Path=/api/getInfoByName/**
+        #message
+        - id: getAllMessage
+          uri: lb://nacos-messageservice-8003
+          predicates:
+            - Path=/api/getAllMessage/**
+        - id: updateDone
+          uri: lb://nacos-messageservice-8003
+          predicates:
+            - Path=/api/updateDone/**
+        - id: imageUpload
+          uri: lb://nacos-messageservice-8003
+          predicates:
+            - Path=/api/imageUpload/**
+        - id: imagePaint
+          uri: lb://nacos-messageservice-8003
+          predicates:
+            - Path=/api/imagePaint/**
+        - id: alert
+          uri: lb://nacos-messageservice-8003
+          predicates:
+            - Path=/api/alert/**
+        #identification
+        - id: getInfoByName
+          uri: lb://nacos-Identification-8004
+          predicates:
+            - Path=/api/getInfoByCate/**
+        - id: getInfoByName
+          uri: lb://nacos-Identification-8004
+          predicates:
+            - Path=/api/identification

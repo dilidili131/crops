@@ -1,0 +1,13 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: cloud-gateway-9527
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.142.15.16:8848
+      config:
+        server-addr: 8.142.15.16:8848
+        file-extension: yaml
